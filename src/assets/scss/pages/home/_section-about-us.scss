@@ -1,0 +1,88 @@
+.page-home {
+
+  .section-about-us {
+    background-image: url('~assets/images/page-home/section-about-us/bim.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .section-header {
+      text-align: right;
+      padding-left: 2.5rem;
+
+      h2.section-title {
+        color: #ffe692;
+      }
+
+      .line {
+        display: block;
+        width: 100%;
+        height: 0.125rem;
+        background-color: #ffe692;
+        margin: 0.75rem auto 1rem;
+      }
+
+      .section-describe {
+        color: #ffffff;
+        font-size: 1rem;
+        font-family: $font-open-sans;
+      }
+
+      .btn-cream {
+        font-size: 1rem;
+        font-family: $font-open-sans;
+        font-weight: 600;
+        text-align: left;
+        text-transform: uppercase;
+        border-radius: unset;
+        box-shadow: 0 0.5rem 1rem 0 rgba(#000000, 0.05);
+        padding: 0.75rem 1.75rem;
+      }
+    }
+
+    .section-content {
+      display: grid;
+      grid-template-columns: repeat(9, 11.11%);
+      margin-left: calc(-15px + 0.5rem);
+      margin-right: calc(-15px + 0.5rem);
+
+      [class*='im-'] {
+        height: 18rem;
+        background-color: #ffffff;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .im-01 {
+        background-image: url('~assets/images/page-home/section-about-us/im-01.jpg');
+        grid-column: 1 / 4;
+      }
+
+      .im-02 {
+        background-image: url('~assets/images/page-home/section-about-us/im-02.jpg');
+        grid-column: 4 / 7;
+      }
+
+      .im-03 {
+        background-image: url('~assets/images/page-home/section-about-us/im-03.jpg');
+        grid-column: 7 / 10;
+      }
+
+      .im-04 {
+        background-image: url('~assets/images/page-home/section-about-us/im-04.jpg');
+        grid-column: 1 / 6;
+      }
+
+      .im-05 {
+        background-image: url('~assets/images/page-home/section-about-us/im-05.jpg');
+        grid-column: 6 / 10;
+      }
+    }
+  }
+}

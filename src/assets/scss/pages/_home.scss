@@ -1,0 +1,19 @@
+@import './home/section-hero';
+@import './home/section-our-story';
+@import './home/section-our-services';
+@import './home/section-store';
+@import './home/section-about-us';
+@import './home/section-contact-us';
+
+.page-home {
+
+  section {
+
+    h2.section-title {
+      font-size: 1.875rem;
+      font-family: $font-open-sans;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}

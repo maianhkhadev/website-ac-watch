@@ -1,0 +1,78 @@
+.page-home {
+
+  .section-contact-us {
+    padding-top: 5rem;
+
+    .container {
+
+      @media screen and (min-width: 1200px) {
+        width: 1040px;
+      }
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+
+      h2.section-title {
+        color: #000000;
+      }
+
+      .line {
+        display: block;
+        width: 15rem;
+        height: 0.125rem;
+        background-color: #000000;
+        margin: 0.5rem auto 1rem;
+      }
+
+      .section-describe {
+        color: #000000;
+        font-size: 1rem;
+        font-family: $font-open-sans;
+        font-weight: 400;
+        margin-bottom: unset;
+      }
+    }
+
+    .section-content {
+      margin-bottom: 2.5rem;
+
+      .form-control {
+        border-color: #ffffff;
+        border-radius: unset;
+        box-shadow: 0 0.5rem 1rem 0 rgba(#000000, 0.05);
+        padding: 0.5rem 1rem;
+      }
+
+      input.form-control {
+        height: calc(3rem + 2px);
+      }
+
+      textarea.form-control {
+        height: calc(7.125rem + 2px);
+      }
+
+      .btn-cream {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        font-family: $font-open-sans;
+        font-weight: 600;
+        text-align: left;
+        text-transform: uppercase;
+        border-radius: unset;
+        box-shadow: 0 0.5rem 1rem 0 rgba(#000000, 0.05);
+        padding: 0.75rem 1rem;
+      }
+    }
+
+    .section-footer {
+      background-image: url('~assets/images/page-home/section-contact-us/im-01.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 25rem;
+    }
+  }
+}

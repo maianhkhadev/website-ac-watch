@@ -1,0 +1,74 @@
+.page-home {
+
+  .section-our-services {
+    position: relative;
+    background-image: url('~assets/images/page-home/section-our-services/bim.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    overflow: hidden;
+
+    .section-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: calc(50vw - 630px);
+      width: calc(50% - 100px);
+      height: 100%;
+      background-image: url('~assets/images/page-home/section-our-services/im-01.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      box-shadow: 0 0 2rem 0 rgba(#000000, 0.25);
+      padding: 6.25rem;
+
+      .flex-content {
+        
+      }
+
+      h2.section-title {
+        color: #ffe692;
+      }
+
+      .line {
+        display: block;
+        width: 100%;
+        height: 0.125rem;
+        background-color: #ffe692;
+        margin: 0.75rem auto 1rem;
+      }
+
+      p {
+        color: #ffffff;
+
+      }
+
+      .btn-outline-cream {
+        font-size: 1rem;
+        font-family: $font-open-sans;
+        font-weight: 600;
+        text-align: left;
+        text-transform: uppercase;
+        border-radius: unset;
+        box-shadow: 0 0.5rem 1rem 0 rgba(#000000, 0.05);
+        padding: 0.75rem 1.75rem;
+      }
+    }
+
+    .section-content {
+      background-color: #ffffff;
+      box-shadow: 0 0 2rem 0 rgba(#000000, 0.25);
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+
+      hr {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+      }
+    }
+  }
+}
