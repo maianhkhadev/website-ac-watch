@@ -1,6 +1,7 @@
 .page-home {
 
   .section-hero {
+    position: relative;
 
     .slick {
 
@@ -14,6 +15,13 @@
           height: 100vh;
         }
       }
+    }
+
+    .btn-scroll-down {
+      position: absolute;
+      left: 50%;
+      bottom: 2rem;
+      transform: translateX(-50%);
     }
   }
 }
