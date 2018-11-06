@@ -16,25 +16,43 @@ function Section(props) {
             <div className="col-xl-8 mx-auto">
               <ul className="nav nav-tabs nav-justified" role="tablist">
                 <li className="nav-item">
-                  <a className="nav-link active" data-toggle="tab" href="#home" role="tab">Special</a>
+                  <a className="nav-link active" data-toggle="tab" href="#tab-01" role="tab">Special</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-toggle="tab" href="#profile" role="tab">Luxury</a>
+                  <a className="nav-link" data-toggle="tab" href="#tab-02" role="tab">Luxury</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-toggle="tab" href="#contact" role="tab">Men</a>
+                  <a className="nav-link" data-toggle="tab" href="#tab-03" role="tab">Men</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-toggle="tab" href="#contact" role="tab">Women</a>
+                  <a className="nav-link" data-toggle="tab" href="#tab-04" role="tab">Women</a>
                 </li>
               </ul>
             </div>
 
             <div className="col-xl-12">
               <div className="tab-content">
-                <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                <div className="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                <div id="tab-01" className="tab-pane show active">
+                  <div className="products">
+                    <div className="block-product-main" style={{ backgroundImage: `url(${require('@/assets/images/page-home/section-store/product-01.jpg')})` }}>
+                    </div>
+                    <div className="block-product" style={{ backgroundImage: `url(${require('@/assets/images/page-home/section-store/product-02.jpg')})` }}>
+                    </div>
+                    <div className="block-product" style={{ backgroundImage: `url(${require('@/assets/images/page-home/section-store/product-03.jpg')})` }}>
+                    </div>
+                    <div className="block-product" style={{ backgroundImage: `url(${require('@/assets/images/page-home/section-store/product-04.jpg')})` }}>
+                    </div>
+                    <div className="block-product" style={{ backgroundImage: `url(${require('@/assets/images/page-home/section-store/product-05.jpg')})` }}>
+                    </div>
+                  </div>
+                  <nav>
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
             </div>
           </div>

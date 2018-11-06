@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+// SECTIONS
+import SectionHero from '@/components/sections/section-hero'
 
 class Layout extends Component {
 
@@ -19,6 +21,9 @@ class Layout extends Component {
         </header>
 
         <main className="main">
+        
+          <SectionHero />
+
           {self.props.children}
         </main>
 

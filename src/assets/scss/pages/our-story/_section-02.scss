@@ -1,0 +1,54 @@
+.page-our-story {
+
+  .section-02 {
+    position: relative;
+    background-image: url('~assets/images/page-our-story/section-02/bim.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    overflow: hidden;
+
+    .section-content {
+      background-color: #ffffff;
+      text-align: center;
+      box-shadow: 0 0 2rem 0 rgba(#000000, 0.25);
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
+
+      .paragraph {
+        color: #000000;
+        font-size: 1rem;
+        font-family: $font-open-sans;
+      }
+    }
+
+    .slick-container {
+      position: absolute;
+      top: 0;
+      left: calc(50vw - 630px);
+      width: 630px;
+      height: 100%;
+      box-shadow: 0 0 2rem 0 rgba(#000000, 0.25);
+
+      .slick {
+        height: 100%;
+        box-shadow: 0 0 2rem 0 rgba(#000000, 0.25);
+
+        .slick-list, .slick-track, .slick-slide, .slick-slide > div{
+          height: 100%;
+        }
+
+        .slide {
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,54 @@
+.section-hero {
+  position: relative;
+
+  .section-content {
+    position: absolute;
+    top: 50%;
+    left: calc(50vw - 630px);
+    width: 630px;
+    transform: translateY(-50%);
+
+    h1.page-title {
+      color: #ffffff;
+      font-size: 6.25rem;
+      font-family: $font-open-sans;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .page-describe {
+      color: #ffffff;
+      font-size: 1.5rem;
+      font-family: $font-open-sans;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      font-size: 1.25rem;
+      font-family: $font-open-sans;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-radius: unset;
+      padding: 1rem 2.25rem;
+      margin-right: 1rem;
+    }
+  }
+
+  .slick {
+
+    .slick-item {
+      background-image: url('~assets/images/page-home/section-hero/slide-01.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+    }
+  }
+
+  .btn-scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+  }
+}

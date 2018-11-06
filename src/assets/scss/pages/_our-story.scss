@@ -1,0 +1,16 @@
+@import './our-story/section-01';
+@import './our-story/section-02';
+@import './our-story/section-03';
+
+.page-our-story {
+
+  section {
+
+    h2.section-title {
+      font-size: 1.875rem;
+      font-family: $font-open-sans;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
