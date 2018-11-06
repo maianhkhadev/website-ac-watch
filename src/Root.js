@@ -8,25 +8,6 @@ import ErrorNotFound from '@/components/pages/error-not-found'
 
 class Root extends Component {
 
-//   function PrivateRoute({ component: Component, ...rest }) {
-//   return (
-//     <Route
-//       {...rest}
-//       render={props => fakeAuth.isAuthenticated ? (
-//           <Component {...props} />
-//         ) : (
-//           <Redirect
-//             to={{
-//               pathname: "/login",
-//               state: { from: props.location }
-//             }}
-//           />
-//         )
-//       }
-//     />
-//   );
-// }
-
   render() {
     return (
       <Switch>

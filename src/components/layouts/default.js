@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+
+import LayoutHeader from './default/header'
+import LayoutFooter from './default/footer'
 // SECTIONS
 import SectionHero from '@/components/sections/section-hero'
 
@@ -17,18 +20,16 @@ class Layout extends Component {
 
     return (
       <div className="layout-default">
-        <header className="header">
-        </header>
+        <LayoutHeader />
 
         <main className="main">
-        
+
           <SectionHero />
 
           {self.props.children}
         </main>
 
-        <footer className="footer">
-        </footer>
+        <LayoutFooter />
       </div>
     )
   }
