@@ -9,6 +9,10 @@ html {
   }
 }
 
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: unset;
 }
@@ -77,6 +81,21 @@ button {
     color: #000000;
     background-color: #FFE692;
     border-color: #FFE692;
+  }
+  &:focus{
+    box-shadow: unset;
+  }
+}
+
+.btn-outline-white {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+
+  &:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
   }
   &:focus{
     box-shadow: unset;
