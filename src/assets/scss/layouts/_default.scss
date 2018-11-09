@@ -32,13 +32,16 @@
         text-align: center;
         border-bottom: 0.25rem solid transparent;
         padding: 0.625rem 1.5rem;
-        margin-bottom: -0.25rem;
 
         .nav-link {
           color: #ffffff;
           font-size: 0.875rem;
           font-family: $font-open-sans;
           text-transform: uppercase;
+
+          &:hover {
+            color: #ffe692;
+          }
         }
 
         &.active {

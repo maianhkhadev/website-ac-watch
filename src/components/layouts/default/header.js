@@ -1,47 +1,61 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-function Header(props) {
+function NavItem(props) {
 
   return (
-    <header className="header">
-
-      <nav className="navbar navbar-expand-xl fixed-top">
-        <div className="container">
-          <div className="collapse navbar-collapse">
-            <ul className="navbar-nav">
-              <li className="nav-item active">
-                <Link className="nav-link" to="/">Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/our-story">Our story</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/store">Store</Link>
-              </li>
-            </ul>
-          </div>
-
-          <a className="navbar-brand" href="#">AC Watch</a>
-
-          <div className="collapse navbar-collapse">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link" to="/our-services">Services</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about-us">About us</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contact-us">Contact</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-    </header>
+    <li className={ `nav-item ${ window.location.pathname === props.link ? 'active' : '' }` }>
+      <Link className="nav-link" to={ props.link }>{ props.name }</Link>
+    </li>
   )
+}
+
+class Header extends Component {
+
+  constructor(props) {
+    super(props)
+
+    this.state = {
+
+    }
+  }
+
+  componentDidMount() {
+    let self = this
+    console.log(1)
+  }
+
+  render() {
+    let self = this
+    // self.props.history.location.pathname
+    return (
+      <header className="header">
+
+        <nav className="navbar navbar-expand-xl fixed-top">
+          <div className="container">
+            <div className="collapse navbar-collapse">
+              <ul className="navbar-nav">
+                <NavItem link="/" name="Home" />
+                <NavItem link="/our-story" name="Our story" />
+                <NavItem link="/store" name="Store" />
+              </ul>
+            </div>
+
+            <a className="navbar-brand" href="#">AC Watch</a>
+
+            <div className="collapse navbar-collapse">
+              <ul className="navbar-nav">
+                <NavItem link="/our-services" name="Services" />
+                <NavItem link="/about-us" name="About us" />
+                <NavItem link="/contact-us" name="Contact" />
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </header>
+    )
+  }
 }
 
 export default Header

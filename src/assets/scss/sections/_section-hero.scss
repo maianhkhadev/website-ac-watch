@@ -48,7 +48,9 @@
     }
 
     .slick-dots {
+      right: 2.5rem;
       bottom: 50%;
+      width: 1.25rem;
       transform: translateY(50%);
 
       li {

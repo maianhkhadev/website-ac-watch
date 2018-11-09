@@ -9,7 +9,8 @@ class Section extends Component {
 
     this.state = {
       options: {
-        dots: true
+        dots: true,
+        arrows: false
       }
     }
   }

@@ -21,7 +21,7 @@ function Section(props) {
               <div className="line"></div>
               <p className="section-describe">Lorem ipsum dolor sit amet, eiusmod are tempor consectetur adipiscing elit</p>
 
-              <a className="btn btn-cream">Read more</a>
+              <button className="btn btn-cream">Read more</button>
             </div>
           </div>
         </div>
