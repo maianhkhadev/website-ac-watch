@@ -48,7 +48,7 @@ class Section extends Component {
           </div>
         </Slick>
 
-        <button className="btn btn-outline-white btn-scroll-down">
+        <button className="btn btn-outline-white btn-scroll-down" onClick={(e) => { window.scrollIntoView(e, '.section-scroll-down') }}>
           <img className="icon" src={ require('@/assets/images/page-home/section-hero/icon-down.png') } alt="" />
         </button>
       </section>

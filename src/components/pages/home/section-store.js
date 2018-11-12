@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Section(props) {
 
@@ -16,7 +17,7 @@ function Section(props) {
             <div className="block-content">
               <h5 className="block-title">LOREM IPSUM 5678</h5>
               <p>Lorem ipsum dolor sit amet, is are you consectetur adipiscing elit, are is sed do eiusmod tempor incididunt</p>
-              <button className="btn btn-outline-cream">Read more</button>
+              <Link className="btn btn-outline-cream" to="/store">Read more</Link>
             </div>
           </div>
           <div className="block-product" style={{ backgroundImage: `url(${require('@/assets/images/page-home/section-store/product-02.jpg')})` }}>

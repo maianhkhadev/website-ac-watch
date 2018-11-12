@@ -1,0 +1,37 @@
+.page-header {
+  position: relative;
+  background-image: url('~assets/images/page-home/section-hero/slide-01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#000000, 0.25);
+  }
+
+  .page-title {
+    position: relative;
+    color: #ffffff;
+    font-size: 5rem;
+    font-family: $font-open-sans;
+    font-weight: 700;
+    z-index: 10;
+  }
+
+  .page-describe {
+    position: relative;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: $font-open-sans;
+    z-index: 10;
+  }
+}

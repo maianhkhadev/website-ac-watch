@@ -4,11 +4,6 @@ function Section(props) {
 
   return (
     <section className="section-01">
-      <div className="section-header">
-        <h2 className="section-title">Store</h2>
-        <div className="line"></div>
-        <p className="section-describe">Lorem ipsum dolor sit amet, consectetur</p>
-      </div>
 
       <div className="section-content">
         <div className="container">

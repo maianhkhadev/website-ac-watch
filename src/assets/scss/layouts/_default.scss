@@ -22,6 +22,10 @@
       margin-right: 2rem;
     }
 
+    .navbar-collapse {
+      width: calc(565px - 6.5rem);
+    }
+
     .navbar-nav {
       width: 100%;
       border-bottom: 1px solid #ffe692;
@@ -55,11 +59,67 @@
   }
 
   .footer {
+    position: relative;
     background-image: url('~assets/images/layout-default/footer/bim.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 3.75rem;
     padding-bottom: 3.75rem;
+
+    .brand {
+      color: #ffe692;
+      font-size: 1.125rem;
+      font-family: $font-lato;
+      font-weight: 500;
+    }
+
+    .copyright {
+      color: #ffffff;
+      font-size: 1rem;
+      font-family: $font-lato;
+    }
+
+    hr {
+      background-color: #ffe692;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: 17.5% 17.5% 17.5% 47.5%;
+      width: 60%;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 0;
+
+      li {
+        font-size: 1rem;
+        font-family: $font-lato;
+        line-height: 1.75;
+
+        &:first-child {
+          color: #ffffff;
+        }
+
+        &:not(:first-child) {
+          color: rgba(#ffffff, 0.6);
+        }
+      }
+    }
+
+    .socials {
+      position: absolute;
+      top: 3.75rem;
+      right: calc(50vw - 615px);
+
+      .social {
+        margin-left: 1rem;
+      }
+    }
   }
 }

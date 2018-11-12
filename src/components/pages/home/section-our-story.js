@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Section(props) {
 
   return (
-    <section className="section-our-story">
+    <section className="section-our-story section-scroll-down">
       <div className="container">
         <div className="row">
           <div className="col-xl-6">
@@ -12,7 +13,7 @@ function Section(props) {
               <div className="line"></div>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <button className="btn btn-cream">Read more</button>
+              <Link className="btn btn-cream" to="/our-story">Read more</Link>
             </div>
           </div>
           <div className="col-xl-6">

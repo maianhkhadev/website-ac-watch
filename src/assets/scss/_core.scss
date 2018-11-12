@@ -21,6 +21,14 @@ button {
   cursor: pointer;
 }
 
+a {
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
 .container {
   @media screen and (min-width: 1300px) {
     max-width: 1260px;

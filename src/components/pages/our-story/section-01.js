@@ -24,7 +24,6 @@ function Section(props) {
               <p className="section-describe">Lorem ipsum dolor sit amet</p>
               <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore is are et dolore consectetur ncididunt ut adipiscing consectetur magna aliqua.</p>
               <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore is are et dolore consectetur ncididunt ut adipiscing consectetur magna aliqua.</p>
-              <button className="btn btn-outline-cream" href="#">Next</button>
             </div>
           </div>
         </div>

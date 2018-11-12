@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // LAYOUT
 import Layout from '@/components/layouts/default'
 // SECTIONS
-
+import PageHeader from '@/components/blocks/page-header'
 
 class Page extends Component {
 
@@ -11,35 +11,37 @@ class Page extends Component {
       <Layout>
         <div className="page page-our-services">
 
-        <section>
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-4 align-self-center">
-                <div className="block-service">
-                  <img className="icon" src={ require('@/assets/images/page-home/section-our-services/icon-01.png') } alt="" />
-                  <h5 className="block-title">LOREM ipsum</h5>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-              </div>
-              <div className="col-xl-4">
-                <div className="block-text">
-                  <div className="block-header">
-                    <h4 className="block-title">LOREM IPSUM</h4>
+          <PageHeader title="Our Services" />
+
+          <section>
+            <div className="container">
+              <div className="row">
+                <div className="col-xl-4 align-self-center">
+                  <div className="block-service">
+                    <img className="icon" src={ require('@/assets/images/page-home/section-our-services/icon-01.png') } alt="" />
+                    <h5 className="block-title">LOREM ipsum</h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod is are is ut labore et consectetur adipiscing elit dolore magna aliqua do eiusmod.<br /> Ut enim ad minim veniam, quis is are nostrud exercitation nostrud</p>
                 </div>
-              </div>
-              <div className="col-xl-4">
-                <div className="block-text">
-                  <div className="block-header">
-                    <h4 className="block-title">LOREM IPSUM</h4>
+                <div className="col-xl-4">
+                  <div className="block-text">
+                    <div className="block-header">
+                      <h4 className="block-title">LOREM IPSUM</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod is are is ut labore et consectetur adipiscing elit dolore magna aliqua do eiusmod.<br /> Ut enim ad minim veniam, quis is are nostrud exercitation nostrud</p>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod is are is ut labore et consectetur adipiscing elit dolore magna aliqua do eiusmod.<br /> Ut enim ad minim veniam, quis is are nostrud exercitation nostrud</p>
+                </div>
+                <div className="col-xl-4">
+                  <div className="block-text">
+                    <div className="block-header">
+                      <h4 className="block-title">LOREM IPSUM</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod is are is ut labore et consectetur adipiscing elit dolore magna aliqua do eiusmod.<br /> Ut enim ad minim veniam, quis is are nostrud exercitation nostrud</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
           <div className="container">
             <div className="row">

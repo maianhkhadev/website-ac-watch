@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Section(props) {
 
@@ -20,8 +21,7 @@ function Section(props) {
               <h2 className="section-title">About Us</h2>
               <div className="line"></div>
               <p className="section-describe">Lorem ipsum dolor sit amet, eiusmod are tempor consectetur adipiscing elit</p>
-
-              <button className="btn btn-cream">Read more</button>
+              <Link className="btn btn-cream" to="/our-services">Read more</Link>
             </div>
           </div>
         </div>

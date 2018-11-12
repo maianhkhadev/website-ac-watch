@@ -22,12 +22,14 @@ class Header extends Component {
 
   componentDidMount() {
     let self = this
-    console.log(1)
+
   }
+
+
 
   render() {
     let self = this
-    // self.props.history.location.pathname
+
     return (
       <header className="header">
 
@@ -47,7 +49,9 @@ class Header extends Component {
               <ul className="navbar-nav">
                 <NavItem link="/our-services" name="Services" />
                 <NavItem link="/about-us" name="About us" />
-                <NavItem link="/contact-us" name="Contact" />
+                <li className="nav-item">
+                  <a className="nav-link" href="#" onClick={(e) => { window.scrollIntoView(e, '.section-contact-us') }}>Contact</a>
+                </li>
               </ul>
             </div>
           </div>
