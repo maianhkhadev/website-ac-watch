@@ -13,22 +13,13 @@
     font-family: $font-open-sans;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 0.75rem;
   }
 
   p {
     color: #1e1e1e;
     font-size: 1rem;
     font-family: $font-open-sans;
-    margin-bottom: 1.25rem;
-  }
-
-  .btn-cream {
-    font-size: 1rem;
-    font-family: $font-open-sans;
-    font-weight: 600;
-    text-align: left;
-    text-transform: uppercase;
-    border-radius: unset;
-    padding: 0.75rem 1.75rem;
+    margin-bottom: 0;
   }
 }

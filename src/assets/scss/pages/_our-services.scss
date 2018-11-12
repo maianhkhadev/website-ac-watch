@@ -1,0 +1,39 @@
+.page-our-services {
+
+  section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .block-text {
+
+    @media screen and (max-width: 600px) {
+
+    }
+
+    .block-header {
+      border-bottom: 1px solid #ffe692;
+      padding-top: 0.875rem;
+      padding-bottom: 0.875rem;
+      margin-bottom: 1.125rem;
+
+      .block-title {
+        color: #000000;
+        font-size: 1.125rem;
+        font-family: $font-open-sans;
+        font-weight: 600;
+      }
+    }
+
+    p {
+      color: #000000;
+      font-size: 1rem;
+      font-family: $font-open-sans;
+      margin-bottom: 0;
+    }
+  }
+
+  .page-footer {
+    height: 5rem;
+  }
+}

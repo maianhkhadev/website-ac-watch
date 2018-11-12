@@ -7,6 +7,7 @@ import Section02 from './our-story/section-02'
 import Section03 from './our-story/section-03'
 
 class Page extends Component {
+  
   render() {
     return (
       <Layout>
@@ -20,7 +21,7 @@ class Page extends Component {
 
         </div>
       </Layout>
-    );
+    )
   }
 }
 

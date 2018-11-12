@@ -9,6 +9,7 @@ import SectionAboutUs from './home/section-about-us'
 import SectionContactUs from './home/section-contact-us'
 
 class Page extends Component {
+
   render() {
     return (
       <Layout>
@@ -26,7 +27,7 @@ class Page extends Component {
 
         </div>
       </Layout>
-    );
+    )
   }
 }
 

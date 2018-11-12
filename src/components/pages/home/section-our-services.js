@@ -23,16 +23,14 @@ function Section(props) {
               <div className="block-service">
                 <img className="icon" src={ require('@/assets/images/page-home/section-our-services/icon-01.png') } alt="" />
                 <h5 className="block-title">LOREM ipsum</h5>
-                <p>Lorem ipsum dolor sit amet</p>
-                <button className="btn btn-cream">Read more</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
             <div className="col-xl-3">
               <div className="block-service">
                 <img className="icon" src={ require('@/assets/images/page-home/section-our-services/icon-02.png') } alt="" />
                 <h5 className="block-title">LOREM ipsum</h5>
-                <p>Lorem ipsum dolor sit amet</p>
-                <button className="btn btn-cream">Read more</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
           </div>
@@ -49,16 +47,14 @@ function Section(props) {
               <div className="block-service">
                 <img className="icon" src={ require('@/assets/images/page-home/section-our-services/icon-04.png') } alt="" />
                 <h5 className="block-title">LOREM ipsum</h5>
-                <p>Lorem ipsum dolor sit amet</p>
-                <button className="btn btn-cream">Read more</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
             <div className="col-xl-3">
               <div className="block-service">
                 <img className="icon" src={ require('@/assets/images/page-home/section-our-services/icon-03.png') } alt="" />
                 <h5 className="block-title">LOREM ipsum</h5>
-                <p>Lorem ipsum dolor sit amet</p>
-                <button className="btn btn-cream">Read more</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
           </div>
